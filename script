@@ -1,4 +1,4 @@
-
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
 $(document).ready(function () {
     const $body = $('body');  // Referencia al cuerpo del documento
@@ -6,10 +6,10 @@ $(document).ready(function () {
     const $toggleExpanded = $('.toggle-expanded');  // Imagen grande
     const $toggleCollapsed = $('.toggle-collapsed');  // Imagen pequeña
     const $barraSuperior = $('.barraSuperior');  // Barra superior
-    const sidebarWidth = 80;  // Ancho del sidebar colapsado
-    const sidebarCollapsedWidth = 250;  // Ancho del sidebar expandido
-    const animationDuration = 300;  // Duración de la animación en ms
-    const animationDurationImg = 40;
+    const sidebarWidth = 60;  // Ancho del sidebar colapsado
+    const sidebarCollapsedWidth = 220;  // Ancho del sidebar expandido
+    const animationDuration = 320;  // Duración de la animación en ms
+    const animationDurationImg = 60;
 
     // Asegura que el sidebar comience en estado colapsado
     $toggleExpanded.css({ opacity: 0 }); // Inicialmente oculta la imagen expandida
